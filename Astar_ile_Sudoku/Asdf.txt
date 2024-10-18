@@ -1,0 +1,22 @@
+Hazırlayacağınız ödev raporunda,
+Sudoku oynayan ajan için PEAS tanımını, ortam özelliklerinin sınıflandırılmasını ve farklı ajan tiplerine göre ajan tasarımını gerçekleştiriniz.
+Problemin durum, hedef fonksiyonu, ardıl fonksiyonu, bedel (değer) fonksiyonu veya sezgi fonksiyonu tanımlarını gerçekleştiriniz. 
+Sezgi fonksiyonunun tanımıyla problemin kısıtlarına uygun bir şekilde belirlenecek olan bedelleri düğümlere ekleyiniz.
+Hedef fonksiyonunun problemin kurallarını kontrol eden alt fonksiyonlar üzerinden çalışmasını sağlayınız. 
+Detaylı bilgi için bu slaytın açıklama kısmına bakınız.
+A* ile hedefe ulaşılıp ulaşılamadığını ve ulaşıldıysa kaç adımda ulaşıldığını değerlendiriniz. 
+Zaman ve uzay karmaşası analizi
+A* ile bulunan çözümün oyunun kurallarını sağlayıp sağlamadığını ve en uygun çözüm olup olmadığını analiz ediniz.
+Bütünlük ve uygunluk
+Yazdığınız kodu IDE’de göründüğü kalitede kopyalayınız.
+Ekran çıktısındansa aynı font tipinde ve düşük font boyutunda kopyala yapıştır ile.
+Ajanın oynadığı oyuna dair bulduğu çözümün konsol veya grafik arayüz ekran çıktısını ekleyiniz.
+****************************************************************************************************************************************
+Problemin A* algoritması ile çözümü için kapalı durumlar listesi (closed list veya visited list) tutan bir çizge arama (graph search) algoritması programlanacaktır. A* algoritmasının en uygun yolu en az hamlede bulabilmesi için anlamlı sezgiler ve bedeller belirlenip bir değerlendirme fonksiyonu türetilecektir. Başlangıç durumundan (initial state) başlanıp her seferinde mevcut konumda gerçekleştirilebilecek tüm olası hareketler değerlendirilerek hedefe ulaşıp ulaşmama koşulu kontrol edilecektir. Bir hamle neticesinde eğer bir kural ihlali ile karşılaşılıyorsa o zaman o hamle için herhangi bir çocuk kenar listesi (fringe) içerisine yerleştirilmeyebilir veya yüksek bir sezgi bedeli kullanılarak düğümün gezilmesinin ertelenmesi sağlanabilir.
+
+04_Informed search ders notunun son 2 slaytına bakınız. 
+Ödev teslim raporunuza 
+kodunuzun çıktısını
+kısaca yöntem, analiz ve yorumlarınızı
+okunaklı bir şekilde kaynak kodunuzu
+ eklemeniz gerekmektedir.
